@@ -1,0 +1,67 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-width: 0px 1px;
+  border-style: solid;
+  border-color: #DDE1E6;
+  padding: 15px;
+  height: 100%;
+  background-color: white;
+  width: fit-content;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 90%;
+  background-color: white;
+  color: white;
+  border-bottom: 1px solid;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 12px 8px;
+  gap: 8px;
+
+}
+
+.button:hover {
+  background-color: #F2F4F8;
+}
+
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.text {
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #21272A;
+}

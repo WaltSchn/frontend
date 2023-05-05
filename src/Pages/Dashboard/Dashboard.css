@@ -1,0 +1,28 @@
+body {
+  background-color: #F2F4F8;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
+  position: fixed;
+  left: 20%;
+  top: 1%;
+  margin-left: 0;
+  width: 1500px;
+  overflow-x: auto;
+  max-width: 100%;
+
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  text-align: left;
+}

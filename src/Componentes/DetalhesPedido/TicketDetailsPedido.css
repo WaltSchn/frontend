@@ -1,0 +1,105 @@
+.ticket-pedidos-box {
+  background-color: #fff;
+  height: auto;
+  width: 350px;
+  position: fixed;
+  right: 2%;
+  top: 550px;
+  margin-right: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.ticket-pedidos-box>div {
+  margin-bottom: 1rem;
+}
+
+.custom2 {
+  font-family: 'Arial';
+  font-style: bold;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* or 16px */
+  width: max-content;
+
+  letter-spacing: 0.5px;
+
+  color: #000000;
+}
+
+.ticket-pedidos-box>div:last-child {
+  margin-right: 0;
+}
+
+.ticket-pedidos-box-header {
+  background-color: #D9D9D9;
+  color: black;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+
+}
+
+.ticket-pedidos-box-header h2 {
+  margin: 0;
+}
+
+.ticket-pedidos-box-content {
+  padding: 10px;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 10px;
+  width: auto;
+}
+
+.buttons-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+}
+
+.pagamento-button {
+  background-color: transparent;
+  width: 120px;
+  height: 45px;
+  margin-left: 30px;
+}
+
+
+.pagamento-button:hover {
+  background-color: #F2F4F8;
+  cursor: 'pointer',
+}
+
+.entrega-button {
+  background-color: transparent;
+  width: 120px;
+  height: 45px;
+  margin-right: 30px;
+}
+
+.entrega-button:hover {
+  background-color: #F2F4F8;
+  cursor: 'pointer',
+}

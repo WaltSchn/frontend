@@ -1,0 +1,11 @@
+.ticketContainer{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    left: 20%;
+    top:0;
+    width: fit-content;
+    
+}

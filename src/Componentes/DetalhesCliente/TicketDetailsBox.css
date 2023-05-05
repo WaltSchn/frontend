@@ -1,0 +1,96 @@
+.ticket-details-box {
+  background-color: #fff;
+  height: auto;
+  width: 350px;
+  position: fixed;
+  right: 2%;
+  top: 50px;
+  margin-right: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.ticket-details-box>div {
+  margin-bottom: 1rem;
+}
+
+.custom {
+  font-family: 'Arial';
+  font-style: bold;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* or 16px */
+  width: max-content;
+
+  letter-spacing: 0.5px;
+
+  color: #000000;
+}
+
+.ticket-details-box>div:last-child {
+  margin-right: 0;
+}
+
+.ticket-details-box-header {
+  background-color: #D9D9D9;
+  color: black;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+
+}
+
+.ticket-details-box-header h2 {
+  margin: 0;
+}
+
+.ticket-details-box-content {
+  padding: 0px;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  width: auto;
+  padding: 5px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 5px;
+  width: 50%;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+
+}
+
+.call-button {
+  background-color: transparent;
+  width: 120px;
+  height: 45px;
+  margin-left: 30px;
+}
+
+.chat-button {
+  background-color: transparent;
+  width: 120px;
+  height: 45px;
+  margin-right: 30px;
+}
